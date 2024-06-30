@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        {
+            let temperature = parseInt(prompt("Enter the temperature:"));
+            if (temperature < 0) {
+                alert("It's freezing cold!");
+            } else if (temperature >= 0 && temperature <= 10) {
+                alert("It's very cold.");
+            } else if (temperature > 10 && temperature <= 20) {
+                alert("It's cold.");
+            } else if (temperature > 20 && temperature <= 30) {
+                alert("It's warm.");
+            } else if (temperature > 30 && temperature <= 40) {
+                alert("It's hot.");
+            } else if (temperature > 40 && temperature <= 50) {
+                alert("It's very hot.");
+            } else {
+                alert("It's extremely hot!");
+            }
+        }
+    </script>
 </body>
 </html>
